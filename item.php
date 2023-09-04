@@ -1,10 +1,12 @@
 <?php
 
-$name='nom'
-$price='prix'
-$link='URL/chemin photo'
+    $name = 'Martin';
+    $price = '3€';
+    $photo = 'Photo';
 
-echo ''nom = ' . $name''
+echo '<p> Nom : ' . $name . '</p>';
+echo '<p> Prix : ' . $price . '</p>';
+echo '<p> URL/chemin de la photo : ' . $photo . '</p>';
 
 ?>
 
