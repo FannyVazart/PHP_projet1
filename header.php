@@ -11,11 +11,12 @@
     <body>
         <section class="full_text_header">
             <div class="text_header">
+                <img src="Icons/ingenieur-informaticien.png" alt="Logo" width="100">   
                 The wonder electronics
             </div>
             <div class="menu">
                 A propos
-                Nos articles
+                <a href="simple-catalog.php"> Nos articles </a>
                 Blabla
             </div>
         </section>
