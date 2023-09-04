@@ -16,7 +16,7 @@
             </div>
             <div class="menu">
                 A propos
-                <a href="simple-catalog.php"> Nos articles </a>
+                <a href="catalog-with-keys.php">Nos articles</a>
                 Blabla
             </div>
         </section>

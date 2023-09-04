@@ -8,13 +8,13 @@ body {
   display: block;
   background-color: rgb(255, 255, 255);
   font-family: Verdana, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 header {
   background-color: rgb(35, 31, 88);
   color: aliceblue;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .full_text_header {
@@ -23,6 +23,7 @@ header {
 }
 
 .text_header {
+    font-size: 4rem;
 }
 
 .menu {
@@ -32,13 +33,17 @@ header {
 .details_prod {
     text-align: center;
     margin-bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 h1 {
   font-size: 200%;
   color: rgb(4, 33, 112);
   text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 .description_prod {
@@ -74,3 +79,10 @@ a:link {
   text-decoration: underline;
 }
 
+
+/* Catalogue specificité */
+.catalogue {
+    display: flex;
+    text-align: center;
+    space-between;
+}
