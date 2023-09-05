@@ -51,10 +51,9 @@ h2 {
 }
 
 .photo_prod {
-  border-radius: 1000px;
   border-style:dashed;
   border-color: rgb(0, 0, 0);
-  width: 15%;
+  width: 30%;
   margin-bottom: 2rem;
 }
 
@@ -84,5 +83,5 @@ a:link {
 .catalogue {
     display: flex;
     text-align: center;
-    space-between;
+    justify-content: space-between;
 }

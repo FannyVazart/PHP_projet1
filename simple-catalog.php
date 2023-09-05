@@ -7,7 +7,11 @@
              ?>
           </pre> 
 
-          <?php echo $products[0] . ' ' . $products[3]; ?>
+          <?php 
+          for ($i=0; $i<4; $i++) {
+            echo $products[$i];
+           }
+          ?>
 
         
 
