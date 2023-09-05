@@ -47,6 +47,7 @@ include 'my-functions.php' ?>
             </section>
             <section class="prix_prod">
                 Prix : <?php echo formatPrice($product["price"]) ?>
+            <p>PrixHT : <?php echo priceExcludingVAT($product["price"]) ?></p>
             </section>
         </section>
     <?php endforeach; ?>

@@ -44,7 +44,8 @@ include 'my-functions.php';
                 <img class="photo_prod" src="<?php echo $Souris["photo"] ?>" alt="photo du produit">
             </section>
             <section class="prix_prod">
-                Prix : <?php echo formatPrice($Souris["price"]) ?> 
+                Prix : <?php echo formatPrice($Souris["price"]) ?>
+                <p>PrixHT : <?php echo priceExcludingVAT($Souris["price"]) ?></p> 
             </section>
         </section>
 
@@ -60,6 +61,7 @@ include 'my-functions.php';
             </section>
             <section class="prix_prod">
                 Prix : <?php echo formatPrice($Tour["price"]) ?>
+                <p>PrixHT : <?php echo priceExcludingVAT($Tour["price"]) ?></p>
             </section>
         </section>
 
@@ -75,6 +77,7 @@ include 'my-functions.php';
             </section>
             <section class="prix_prod">
                 Prix : <?php echo formatPrice($Clavier["price"]) ?>
+                <p>PrixHT : <?php echo priceExcludingVAT($Clavier["price"]) ?></p>
             </section>
         </section>
 
@@ -90,6 +93,7 @@ include 'my-functions.php';
             </section>
             <section class="prix_prod">
                 Prix : <?php echo formatPrice($Ecran["price"]) ?>
+                <p>PrixHT : <?php echo priceExcludingVAT($Ecran["price"]) ?></p>
             </section>
         </section>
 
