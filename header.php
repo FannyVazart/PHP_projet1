@@ -9,6 +9,7 @@
     </head>
     
     <body>
+        <header>
         <section class="full_text_header">
             <div class="text_header">
                 <img src="Icons/ingenieur-informaticien.png" alt="Logo" width="100">   
@@ -20,6 +21,5 @@
                 Blabla
             </div>
         </section>
-    </body>
-    
-    </html>
+        </header>
+ 

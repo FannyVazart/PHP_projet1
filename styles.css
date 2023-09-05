@@ -2,11 +2,12 @@ html,
 
 /*Fiche produit*/
 
+
 body {
   margin: 0;
   padding: 0;
   display: block;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font-family: Verdana, sans-serif;
   font-size: 1rem;
 }
@@ -16,6 +17,7 @@ header {
   color: aliceblue;
   padding: 1.5rem;
 }
+
 
 .full_text_header {
     display: flex;

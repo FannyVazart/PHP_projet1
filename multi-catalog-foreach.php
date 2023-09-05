@@ -28,28 +28,12 @@ $products = [
     "description" => "Ce magnifique écran est, en plus, très lumineux.",
 ],
 ];
-?>
+     
+include 'header.php'; ?>
 
-<!DOCTYPE html>
-<html lang="fr">
+<div class="catalogue">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Catalogue produits</title>
-</head>
-
-<body>
-    <header>
-        <?php include 'header.php'; ?>
-    </header>
-
-    <div class="catalogue">
-
-
-<?php foreach($products as $product): ?>
-
+    <?php foreach($products as $product): ?>
         <section class="$product">
             <section class="nom_prod">
                 <h2><?php echo $product["name"] ?></h2>
@@ -64,14 +48,8 @@ $products = [
                 Prix : <?php echo $product["price"] ?> €
             </section>
         </section>
+    <?php endforeach; ?>
 
-<?php endforeach; ?>
+</div>
 
-    </div>
-
-    <footer>
-        <?php include 'footer.php'; ?>
-    </footer>
-</body>
-
-</html>
+<?php include 'footer.php'; ?>

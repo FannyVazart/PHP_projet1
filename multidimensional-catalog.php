@@ -28,22 +28,9 @@ $products = [
     "description" => "Ce magnifique écran est, en plus, très lumineux.",
 ],
 ];
-?>
 
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Catalogue produits</title>
-</head>
-
-<body>
-    <header>
-        <?php include 'header.php'; ?>
-    </header>
+include 'header.php'; ?>
 
     <div class="catalogue">
 
@@ -106,12 +93,6 @@ $products = [
                 Prix : <?php echo $products["Ecran"]["price"] ?> €
             </section>
         </section>
-
     </div>
 
-    <footer>
-        <?php include 'footer.php'; ?>
-    </footer>
-</body>
-
-</html>
+  <?php include 'footer.php'; ?>
