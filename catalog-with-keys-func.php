@@ -27,7 +27,9 @@ $Ecran = [
     "description" => "Ce magnifique écran est, en plus, très lumineux.",
 ];
 
-include 'header.php'; ?>
+include 'header.php'; 
+include 'my-functions.php';
+?>
 
     <div class="catalogue">
 
@@ -42,7 +44,7 @@ include 'header.php'; ?>
                 <img class="photo_prod" src="<?php echo $Souris["photo"] ?>" alt="photo du produit">
             </section>
             <section class="prix_prod">
-                Prix : <?php echo $Souris["price"] ?> €
+                Prix : <?php echo formatPrice($Souris["price"]) ?> 
             </section>
         </section>
 
@@ -57,7 +59,7 @@ include 'header.php'; ?>
                 <img class="photo_prod" src="<?php echo $Tour["photo"] ?>" alt="photo du produit">
             </section>
             <section class="prix_prod">
-                Prix : <?php echo $Tour["price"] ?> €
+                Prix : <?php echo formatPrice($Tour["price"]) ?>
             </section>
         </section>
 
@@ -72,7 +74,7 @@ include 'header.php'; ?>
                 <img class="photo_prod" src="<?php echo $Clavier["photo"] ?>" alt="photo du produit">
             </section>
             <section class="prix_prod">
-                Prix : <?php echo $Clavier["price"] ?> €
+                Prix : <?php echo formatPrice($Clavier["price"]) ?>
             </section>
         </section>
 
@@ -87,7 +89,7 @@ include 'header.php'; ?>
                 <img class="photo_prod" src="<?php echo $Ecran["photo"] ?>" alt="photo du produit">
             </section>
             <section class="prix_prod">
-                Prix : <?php echo $Ecran["price"] ?> €
+                Prix : <?php echo formatPrice($Ecran["price"]) ?>
             </section>
         </section>
 

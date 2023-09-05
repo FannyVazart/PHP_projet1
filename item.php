@@ -1,6 +1,6 @@
 <?php
     $name = 'Souris noire';
-    $price = '8';
+    $price = '800';
     $photo = 'https://www.grosbill.com/images_produits/fbab70f8-5842-4c66-9a8f-ac6d92543d64.jpg';
     $description = 'Cette magnifique souris est, en plus, très ergonomique.';
 
